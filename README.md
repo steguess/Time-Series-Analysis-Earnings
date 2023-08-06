@@ -10,7 +10,7 @@ Quarterly earnings per share of Coca Cola Company from the first quarter of 1983
 **Coca Cola Earnings from 1983 - 2009**
 
 
-![image](https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/0daf6e69-182b-4ce5-b48c-341cd081e1a3)
+![0](0.png)
 
 
 
@@ -181,7 +181,7 @@ For the Confidence Interval, we use the first transformation scale and, in the e
 - Lower CI: exp(Point prediction - 1.806302 * SE)
 - Upper CI: exp(Point prediction + 1.834527 * SE)
 
-![image](https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/395d58b6-eca9-4145-9380-1ceb42359548)
+![10](10.png)
 
 
 ## Authors 📚

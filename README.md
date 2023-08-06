@@ -54,6 +54,7 @@ When we take AR(1), the coefficient becomes close to 1 (0.9308), and when we tak
 
 <img width="452" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/b736fc36-fd9d-44e0-a12e-9542ae3ed94c">
 
+
 ## 📝 Selected Models
 
 ![Model Icon](https://example.com/model-icon.png)

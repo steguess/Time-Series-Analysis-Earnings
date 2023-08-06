@@ -20,7 +20,7 @@ Since 1983, the quarterly earnings per share grew strongly over time. It started
 
 ## 📊 Analysis on the Original Data
 
-<img width="568" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/b1975c3b-965e-4e56-a076-858a09f1805b">
+![4](4.png)
 
 
 
@@ -36,7 +36,8 @@ The time series plot shows that the level is not constant over time.
 
 ## 🔄 Using Regular Difference
 
-<img width="664" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/295552e6-d773-4dff-8ca2-438e30acf548">
+
+![5](5.png)
 
 
 
@@ -54,7 +55,7 @@ S=4 Quarterly Data | Seasonal Difference: 1 | Regular Difference: 1
 
 When we take AR(1), the coefficient becomes close to 1 (0.9308), and when we take SAR(1) with Regular Difference 1, the coefficient is also becoming close to 1 (0.9184). Hence, we want to predict two parameters less and will take differences instead of AR(1) and SAR(1). After taking the differences (d,D), you can see the plots below. The ACF and PACF plot show that we don't have White Noise → look for a linear model.
 
-<img width="1092" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/82f845c9-f80b-4d8d-a0af-a8a30f9e0563">
+![6](6.png)
 
 
 
@@ -91,7 +92,7 @@ After using log transformation in the original dataset, you can see in the first
 - If we take AR(1)  the coefficient becomes close to 1 (0.9775), and if we take SAR(1) with Regular Difference 1 the coefficient is not so close to 1 (0.8650) (but approaching towards 1)  hence we tried to use SAR(1) to see if the model performs better than taking the difference with ARIMA(1,0,1)*(1,0,1) .
 
 
-<img width="969" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/6cd39756-4345-4968-8ef2-0eccf7fe6756">
+![2](2.png)
 
 S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log transformation
 - After taking the differences(d = 1,D =1 ) you can see the plots below show there are no trends 
@@ -100,8 +101,7 @@ S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log trans
 - ACF plot, lag 1,3,4,5,9,18 are out of bound → need to take regular and seasonal lags 
 - PACF plot are 1,2,4,8 are out of bound → regular and seasonal lags → liner models needed
 
-<img width="1242" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/ae951137-8558-43ba-9998-32b8bce14431">
-
+![1](1.png)
 
 ## 🎯 Selected Models with Log Transformation :SARIMA(p,d,q)*(P,D,Q) Analysis
 
@@ -150,8 +150,7 @@ Even though the recursive shows minimal better results on MAPE for ARIMA(0,1,1)*
 
 The winning model is Log(Yt), SARIMA(0,1,1)(0,1,1,4).
 
-<img width="790" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/221748a9-6b40-4757-8650-bf242c975159">
-
+![7](7.png)
 
 - The two estimated parameters MA(1) and SMA(1) parameters are statistically significant (p-value < 0).
 - ADF Test p-value is below 0.05 → the mean is stationary.
@@ -159,7 +158,7 @@ The winning model is Log(Yt), SARIMA(0,1,1)(0,1,1,4).
 - Box Test p-value = 0.649 → data is uncorrelated, and ACF close to zero → LB states White Noise residuals → no linear model needed.
 - Shapiro Test p-value is below zero → no normal distribution → Non-Gaussian White Noise.
 
-  <img width="1274" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/816c6786-314c-44d1-912e-a3cb02ef14f1">
+ ![8](8.png)
 
 
 Squared residuals Box Test p-value is below 0.05, squared residuals lags are out of bound → data is correlated → No Strict White Noise → Nonlinear model for the variance can be used.
@@ -167,7 +166,8 @@ Squared residuals Box Test p-value is below 0.05, squared residuals lags are out
 Since the tails of the distribution are not close to the normal distribution, we cannot use the assumption of normality for the tails, we need to use the quantiles of the distribution for the CI prediction.
 
 
-<img width="578" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/b3db4407-ba97-43d0-a3f5-7c0da1835a57">
+ ![9](9.png)
+
 
 
 

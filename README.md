@@ -97,11 +97,11 @@ S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log trans
 
 ## SARIMA(p,d,q)*(P,D,Q) Analysis
 
-| SARIMA(p,d,q)*(P,D,Q) | Transformation | Parameters | Signif. | Box Test | df=28 | WN | GWN | SWN |
+| SARIMA(p,d,q)*(P,D,Q) | Transformation | Parameters Sig. | Box Test | df=28 | WN | GWN | SWN |
 |---|---|---|---|---|---|---|---|---|
-| (0,1,1)*(0,1,1) | log | Yes | 0.64 | Yes | NO | NO |
-| (1,1,0)*(0,1,1) | log | Yes | 0.23 | Yes | NO | NO |
-| (1,0,1)*(1,0,1) | log | Yes | 0.74 | Yes | NO | NO |	
+| (0,1,1)*(0,1,1) | log | Yes | 0.64 | Yes | No | No |
+| (1,1,0)*(0,1,1) | log | Yes | 0.23 | Yes | No | No |
+| (1,0,1)*(1,0,1) | log | Yes | 0.74 | Yes | No | No |	
 
 ## 🎯 Selected Models with Log Transformation
 

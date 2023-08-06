@@ -34,10 +34,19 @@ The time series plot shows that the level is not constant over time.
 
 ## 🔄 Using Regular Difference
 
-![Difference Icon](https://example.com/difference-icon.png)
+<img width="248" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/9a83717d-ce90-4b31-9df4-1e6415312126">
 
-S=4 Quarterly Data | Seasonal Difference: 0 | Regular Difference: 1
-ACF plot: Seasonal lags, slow decay to zero → Seasonal Difference.
+
+- S=4 Quarterly Data
+- Seasonal Difference: 0
+- Regular Difference: 1
+
+ACF plot:
+- Seasonal lags, slow decay to zero
+  
+Conclusion:
+- Seasonal Difference
+- 
 
 =4 Quarterly Data | Seasonal Difference: 1 | Regular Difference: 1
 When we take AR(1), the coefficient becomes close to 1 (0.9308), and when we take SAR(1) with Regular Difference 1, the coefficient is also becoming close to 1 (0.9184). Hence, we want to predict two parameters less and will take differences instead of AR(1) and SAR(1). After taking the differences (d,D), you can see the plots below. The ACF and PACF plot show that we don't have White Noise → look for a linear model.

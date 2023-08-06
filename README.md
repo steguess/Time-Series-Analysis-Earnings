@@ -115,7 +115,7 @@ S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log trans
 Using the ACF and PACF to find the best possible combination, and also employing Grid Search to find the best model with the lowest AIC score, the following models were selected:
 
 
- ##  Model Comparison <img width="30" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/99e338c7-89ca-45cd-96a9-4765e55bb27d">
+ ##  Model Comparison 
 
 We use 83 time series points for training and 24 values for the testing set. The performance of the models is compared using MAPE / MSFE for 4 horizons.
 

@@ -9,6 +9,7 @@ Quarterly earnings per share of Coca Cola Company from the first quarter of 1983
 
 **Coca Cola Earnings from 1983 - 2009**
 
+
 ![image](https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/0daf6e69-182b-4ce5-b48c-341cd081e1a3)
 
 
@@ -164,7 +165,9 @@ The winning model is Log(Yt), SARIMA(0,1,1)(0,1,1,4).
 Squared residuals Box Test p-value is below 0.05, squared residuals lags are out of bound → data is correlated → No Strict White Noise → Nonlinear model for the variance can be used.
 
 Since the tails of the distribution are not close to the normal distribution, we cannot use the assumption of normality for the tails, we need to use the quantiles of the distribution for the CI prediction.
-<img width="269" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/840eabcb-63e1-488c-a406-ebe46d2b17a0">
+
+
+<img width="259" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/46d86cf4-3fab-458b-b259-4ccdf32fc4b9">
 
 
 ## 📈 Prediction

@@ -58,8 +58,6 @@ When we take AR(1), the coefficient becomes close to 1 (0.9308), and when we tak
 
 ## 📝 Selected Models
 
-![Model Icon](https://example.com/model-icon.png)
-
 We looked for possible models with significant parameters and also checked if the residuals are white noise. We selected the three models below, which capture the seasonal trend with the minimum number of parameters used based on the ACF and PACF plot. In addition, we ran a grid search, which looked for all possible combinations with the lowest AIC score. The lowest AIC score is the model: (1,1,1)(1,1,0), which is used as well. We did not consider (2,1,0)*(0,1,1) or other higher combinations, even though the box test showed it is a valid model, since we want to use the minimum of parameters, and the models with lower parameters already had significant coefficient parameters, and the Box Test p-value was above 0.05.
 
 #### SARIMA(p,d,q)*(P,D,Q) Models Summary

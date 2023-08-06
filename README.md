@@ -1,7 +1,7 @@
 ![Coca Cola Banner](dashboard.png)
 
 
-# Coca Cola Company - Quarterly Earnings per Share Analysis
+# Quarterly Earnings per Share Analysis
 
 Quarterly earnings per share of Coca Cola Company from the first quarter of 1983 to the third quarter of 2009.
 

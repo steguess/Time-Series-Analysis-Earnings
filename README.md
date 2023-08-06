@@ -95,9 +95,7 @@ S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log trans
 <img width="1242" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/ae951137-8558-43ba-9998-32b8bce14431">
 
 
-## SARIMA(p,d,q)*(P,D,Q) Analysis
-
-Certainly! Here's the table:
+## 🎯 Selected Models with Log Transformation :SARIMA(p,d,q)*(P,D,Q) Analysis
 
 | SARIMA(p,d,q)*(P,D,Q) | Transformation | Parameters sign.| Box Test df=28 | WN | GWN | SWN |
 |-----------------------|----------------|------------|----------|----|-----|-----|
@@ -105,13 +103,9 @@ Certainly! Here's the table:
 | (1,1,0)*(0,1,1)       | log            | Yes        | 0.23     | Yes| No  | No  |
 | (1,0,1)*(1,0,1)       | log            | Yes        | 0.74     | Yes| No  | No  |
 
-## 🎯 Selected Models with Log Transformation
 
 Using the ACF and PACF to find the best possible combination, and also employing Grid Search to find the best model with the lowest AIC score, the following models were selected:
 
-- SARIMA(0,1,1)(0,1,1) with log transformation
-- SARIMA(1,1,0)(0,1,1) with log transformation
-- SARIMA(1,0,1)(1,0,1) with log transformation
 
  ## 📊 Model Comparison
 

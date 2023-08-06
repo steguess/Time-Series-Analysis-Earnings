@@ -1,4 +1,4 @@
-![Coca Cola Banner](dashboard.png)
+![Dashboard](dashboard.png)
 
 
 # Quarterly Earnings per Share Analysis

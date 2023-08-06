@@ -3,11 +3,12 @@
 
 # Coca Cola Company - Quarterly Earnings per Share Analysis
 
-## 💹 Quarterly Earnings per Share from 1983 to 2009
+## <span style="color:darkred">💹 Quarterly Earnings per Share from 1983 to 2009</span>
 
 Quarterly earnings per share of Coca Cola Company from the first quarter of 1983 to the third quarter of 2009.
 
 ## 📈 Box - Jenkins Methodology
+## <span style="color:darkred">📈 Box - Jenkins Methodology</span>
 
 ![Chart Icon](https://example.com/chart-icon.png)
 

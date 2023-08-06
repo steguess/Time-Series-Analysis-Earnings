@@ -150,8 +150,6 @@ For the Confidence Interval, we use the first transformation scale and, in the e
 
 
 ## Contributors
-<img width="428" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/474c53d5-e775-404f-b341-e1eb286077d2">
-
 
   <tr>
     <td align="center"><a href="https://github.com/bmanzuoli"><img src="https://avatars.githubusercontent.com/u/108944195?v=4" width="100px;" alt="Barbara Manzueli"/><br /><sub><b>Barbara Manzueli</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=itayyoung" title="Data Analyst">✍️</a></td>

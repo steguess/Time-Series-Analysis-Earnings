@@ -11,6 +11,9 @@
 ![💹 Quarterly Earnings per Share from 1983 to 2009](https://imgbb.com/image/?text=💹 Quarterly Earnings per Share from 1983 to 2009&color=darkred&size=100x100)
 
 
+.imgbb-image {
+  background-color: transparent;
+}
 
 
 

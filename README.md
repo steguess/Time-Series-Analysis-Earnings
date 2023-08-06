@@ -147,3 +147,17 @@ For the Confidence Interval, we use the first transformation scale and, in the e
 95% confidence interval Assuming Quantile distribution on the tails:
 - Lower CI: exp(Point prediction - 1.806302 * SE)
 - Upper CI: exp(Point prediction + 1.834527 * SE)
+
+
+## Contributors
+<img width="428" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/474c53d5-e775-404f-b341-e1eb286077d2">
+
+
+  <tr>
+    <td align="center"><a href="https://github.com/bmanzuoli"><img src="https://avatars.githubusercontent.com/u/108944195?v=4" width="100px;" alt="Barbara Manzueli"/><br /><sub><b>Barbara Manzueli</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=itayyoung" title="Data Analyst">✍️</a></td>
+    <td align="center"><a href="https://github.com/juanhorrillo"><img src="https://avatars.githubusercontent.com/u/108974910?v=4" width="100px;" alt="Juan Horrillo"/><br /><sub><b>Juan Horrillo</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=callisthenes" title="Backend Developer">💻</a></td>
+    <td align="center"><a href="https://github.com/steguess"><img src="https://avatars.githubusercontent.com/u/86976901?v=4" width="100px;" alt="Stephanie Gessler"/><br /><sub><b>Stephanie Gessler</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=steguess" title="Frontend Developer">💻</a></td>
+    <td align="center"><a href="https://github.com/salmaelguendy"><img src="https://avatars.githubusercontent.com/u/108944312?v=4" width="100px;" alt="Salma Guendy"/><br /><sub><b>Salma Guendy</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=salmaelguendy" title="UI/UX Designer">🎨</a></td>
+    <td align="center"><a href="https://github.com/conniekim"><img src="https://avatars.githubusercontent.com/u/16468772?v=4" width="100px;" alt="Connie Kim"/><br /><sub><b>Connie Kim</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=conniekim" title="Technical Writer">✍️</a></td>
+  </tr>
+</table>

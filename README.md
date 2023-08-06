@@ -2,7 +2,7 @@ Certainly! Below is the updated version of the text with icons and the "CocaCola
 
 # Coca Cola Company - Quarterly Earnings per Share Analysis
 
-![Coca Cola Banner](CocaCola_Banner.png)
+![Coca Cola Banner](CocaColaBanner.png)
 
 ## 💹 Quarterly Earnings per Share from 1983 to 2009
 

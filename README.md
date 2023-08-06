@@ -2,7 +2,9 @@
 
 
 # Coca Cola Company - Quarterly Earnings per Share Analysis
-![💹 Quarterly Earnings per Share from 1983 to 2009](https://placehold.co/15x15/f03c15/f03c15.png)
+# Quarterly Earnings per Share from 1983 to 2009
+
+![💹 Quarterly Earnings per Share from 1983 to 2009](https://placehold.it/100x100?color=darkred)
 
 
 ## <span style="color:darkred">Quarterly Earnings per Share from 1983 to 2009</span>

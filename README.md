@@ -77,11 +77,8 @@ SWN = Strict White Noise
 
 Apologies for that oversight. Here's the revised version with icons in the headers:
 
-# Coca Cola Company - Earnings per Share Analysis
 
-![Coca Cola Banner](https://example.com/CocaCola_Banner.png)
-
-## <img src="https://example.com/transformation-icon.png" alt="Transformation Icon" width="25"/> Log(Yt) Transformation
+📈 # Log(Yt) Transformation
 
 After using log transformation in the original dataset, the following observations were made:
 - The mean is not stationary in the first plot.
@@ -89,7 +86,7 @@ After using log transformation in the original dataset, the following observatio
 - PACF plot lag 1 is out of bound, further confirming the need for a difference.
 - ndiff test for regular and seasonal indicates we need to apply the difference with d=1 and D=1.
 
-## <img src="https://example.com/model-icon.png" alt="Model Icon" width="25"/> Selected Models with Log Transformation
+🎯 # Selected Models with Log Transformation
 
 Using the ACF and PACF to find the best possible combination, and also employing Grid Search to find the best model with the lowest AIC score, the following models were selected:
 
@@ -97,11 +94,11 @@ Using the ACF and PACF to find the best possible combination, and also employing
 - SARIMA(1,1,0)(0,1,1) with log transformation
 - SARIMA(1,0,1)(1,0,1) with log transformation
 
-## <img src="https://example.com/comparison-icon.png" alt="Comparison Icon" width="25"/> Model Comparison
+📊 # Model Comparison
 
 We use 83 time series points for training and 24 values for the testing set. The performance of the models is compared using MAPE / MSFE for 4 horizons.
 
-### Recursive Tests:
+###🔁Recursive Tests:
 
 SARIMA(p,d,q)(P,D,Q) | Transformation | MSFE(n=1) | MSFE(n=2) | MSFE(n=3) | MSFE(n=4) | MAPE(n=1) | MAPE(n=2) | MAPE(n=3) | MAPE(n=4)
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -113,7 +110,7 @@ SARIMA(p,d,q)(P,D,Q) | Transformation | MSFE(n=1) | MSFE(n=2) | MSFE(n=3) | MSFE
 (1,1,0)*(0,1,1) | d=1, D=1, log | 0.0018 | 0.0033 | 0.0039 | 0.0039 | 5.6678 | 7.0792 | 7.5103 | 7.1381
 (1,0,1)*(1,0,1) | log | 0.0017 | 0.0031 | 0.0035 | 0.0035 | 5.2534 | 6.8415 | 7.2229 | 6.8383
 
-### Rolling Tests:
+### 🔀Rolling Tests:
 
 SARIMA(p,d,q)(P,D,Q) | Transformation | MSFE(n=1) | MSFE(n=2) | MSFE(n=3) | MSFE(n=4) | MAPE(n=1) | MAPE(n=2) | MAPE(n=3) | MAPE(n=4)
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -127,7 +124,7 @@ SARIMA(p,d,q)(P,D,Q) | Transformation | MSFE(n=1) | MSFE(n=2) | MSFE(n=3) | MSFE
 
 3
 
-## <img src="https://example.com/winner-icon.png" alt="Winner Icon" width="25"/> Winner Model
+## 🏆 Winner Model
 
 The winning model is Log(Yt), SARIMA(0,1,1)(0,1,1,4).
 
@@ -141,7 +138,7 @@ Squared residuals Box Test p-value is below 0.05, squared residuals lags are out
 
 Since the tails of the distribution are not close to the normal distribution, we cannot use the assumption of normality for the tails, we need to use the quantiles of the distribution for the CI prediction.
 
-## Prediction
+## 📈 Prediction
 
 Next 24 quarters point prediction already with the undone transformation (6 years):
 

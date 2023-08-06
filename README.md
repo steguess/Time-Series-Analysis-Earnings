@@ -160,9 +160,12 @@ For the Confidence Interval, we use the first transformation scale and, in the e
 <table>
   <tr>
     <td align="center"><a href="https://github.com/bmanzuoli"><img src="https://avatars.githubusercontent.com/u/108944195?v=4" width="100px;" alt="Barbara Manzueli"/><br /><sub><b>Barbara Manzueli</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=itayyoung" title="Data Analyst">✍️</a></td>
-    <td align="center"><a href="https://github.com/juanhorrillo"><img src="https://avatars.githubusercontent.com/u/108974910?v=4" width="100px;" alt="Juan Horrillo"/><br /><sub><b>Juan Horrillo</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=callisthenes" title="Backend Developer">💻</a></td>
+    <td align="center"><a href="https://github.com/juanhorrillo"><img src="https://avatars.githubusercontent.com/u/108974910?v=4" width="100px;" alt="Juan Horrillo"/><br /><sub><b>Juan Horrillo</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=juanhorrillo" title="Backend Developer">✍️</a></td>
     <td align="center"><a href="https://github.com/steguess"><img src="https://avatars.githubusercontent.com/u/86976901?v=4" width="100px;" alt="Stephanie Gessler"/><br /><sub><b>Stephanie Gessler</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=steguess" title="Frontend Developer">💻</a></td>
     <td align="center"><a href="https://github.com/aousalmegrin"><img src="https://avatars.githubusercontent.com/u/89685456?v=4" width="100px;" alt="Aous Almegrin"/><br /><sub><b>Aous Almegrin</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=Aous Almegrin" title="UI/UX Designer">🎨</a></td>
     <td align="center"><a href="https://github.com/Nirmalavino"><img src="https://avatars.githubusercontent.com/u/108956176?v=4" width="100px;" alt="Nirmala Vinothbabu"/><br /><sub><b>Nirmala Vinothbabu</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=Nirmalavino" title="Technical Writer">✍️</a></td>
+    <td align="center"><a href="https://github.com/JSS1602"><img src="https://avatars.githubusercontent.com/u/108974910?v=4" width="100px;" alt="Jorge Sanz"/><br /><sub><b>Jorge Sanz</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=JSS1602" title="Backend Developer">💻</a></td>
   </tr>
 </table>
+
+

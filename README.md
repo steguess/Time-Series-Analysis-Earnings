@@ -82,7 +82,14 @@ SWN = Strict White Noise
 
 After using log transformation in the original dataset, you can see in the first plot that the mean is not stationary. Also the ACF plot is slowly decaying to zero 
 → Taking the difference 
-- PACF plot lag 1 is out of bound → difference → also ndiff test for regular and seasonal indicates we need to apply the difference d= 1 and D=1 - After taking only d=1, the seasonal lags decay to zero over time in the ACF plot → Seasonal Difference and also the seasonal difference test is also indicating to take the difference
+- PACF plot lag 1 is out of bound
+   → we take the difference
+   → also ndiff test for regular and seasonal indicates we need to apply the difference d= 1 and D=1
+- After taking only d=1, the seasonal lags decay to zero over time in the ACF plot
+  → Seasonal Difference and also the seasonal difference test is also indicating to take the difference
+- If we take AR(1)  the coefficient becomes close to 1 (0.9775), and if we take SAR(1) with Regular Difference 1 the coefficient is not so close to 1 (0.8650) (but approaching towards 1)  hence we tried to use SAR(1) to see if the model performs better than taking the difference with ARIMA(1,0,1)*(1,0,1) .
+
+   ![image](https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/4b58352e-8ecb-4f2e-8f43-880521a12363)
 
 <img width="969" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/6cd39756-4345-4968-8ef2-0eccf7fe6756">
 

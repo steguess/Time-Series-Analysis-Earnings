@@ -9,7 +9,8 @@ Quarterly earnings per share of Coca Cola Company from the first quarter of 1983
 
 **Coca Cola Earnings from 1983 - 2009**
 
-<img width="107" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/7e775e97-2edb-4a35-b17a-473adb3ba348">
+<img width="281" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/15e00e85-2943-4717-8f4c-a0b508fd3a10">
+
 
 
 Since 1983, the quarterly earnings per share grew strongly over time. It started from 0.0375 earnings per share and reached its highest peak at 1.01 earnings per share in July 2008. The variance/volatility was smaller from 1983 to 1990 compared to 1990 to 1997, and it increased even further in volatility/variance from 2000 to 2009. Additionally, you can also see a break in the trend, and earnings per share declined from the year 1999 to 2000.

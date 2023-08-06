@@ -94,10 +94,14 @@ S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log trans
 
 <img width="1242" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/ae951137-8558-43ba-9998-32b8bce14431">
 
-SARIMA(p,d,q)*(P,D,Q)	Transformation	Parameters	Signif.	Box Test	df=28	WN	
-(0,1,1)*(0,1,1)	log	Yes	0.64	Yes	No	No		
-(1,1,0)*(0,1,1)	log	Yes	0.23	Yes	No	No		
-(1,0,1)*(1,0,1)	log	Yes	0.74	Yes	No	No		
+
+## SARIMA(p,d,q)*(P,D,Q) Analysis
+
+| SARIMA(p,d,q)*(P,D,Q) | Transformation | Parameters | Signif. | Box Test | df=28 | WN | GWN | SWN |
+|---|---|---|---|---|---|---|---|---|
+| (0,1,1)*(0,1,1) | log | Yes | 0.64 | Yes | No | No |
+| (1,1,0)*(0,1,1) | log | Yes | 0.23 | Yes | No | No |
+| (1,0,1)*(1,0,1) | log | Yes | 0.74 | Yes | No | No |	
 
 ## 🎯 Selected Models with Log Transformation
 

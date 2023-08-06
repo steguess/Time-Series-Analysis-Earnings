@@ -86,7 +86,7 @@ After using log transformation in the original dataset, the following observatio
 - PACF plot lag 1 is out of bound, further confirming the need for a difference.
 - ndiff test for regular and seasonal indicates we need to apply the difference with d=1 and D=1.
 
-🎯 # Selected Models with Log Transformation
+# 🎯 Selected Models with Log Transformation
 
 Using the ACF and PACF to find the best possible combination, and also employing Grid Search to find the best model with the lowest AIC score, the following models were selected:
 
@@ -94,11 +94,11 @@ Using the ACF and PACF to find the best possible combination, and also employing
 - SARIMA(1,1,0)(0,1,1) with log transformation
 - SARIMA(1,0,1)(1,0,1) with log transformation
 
-📊 # Model Comparison
+ # 📊 Model Comparison
 
 We use 83 time series points for training and 24 values for the testing set. The performance of the models is compared using MAPE / MSFE for 4 horizons.
 
-###🔁Recursive Tests:
+### 🔁Recursive Tests:
 
 SARIMA(p,d,q)(P,D,Q) | Transformation | MSFE(n=1) | MSFE(n=2) | MSFE(n=3) | MSFE(n=4) | MAPE(n=1) | MAPE(n=2) | MAPE(n=3) | MAPE(n=4)
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---

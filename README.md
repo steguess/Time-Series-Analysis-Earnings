@@ -71,6 +71,6 @@ We looked for possible models with significant parameters and also checked if th
 
 
 *Legend
-WH = White Noise
-GWN = Gaussian White Noise
+WH = White Noise,
+GWN = Gaussian White Noise,
 SWN = Strict White Noise

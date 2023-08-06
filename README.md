@@ -76,7 +76,7 @@ GWN = Gaussian White Noise,
 SWN = Strict White Noise
 
 
-# 📈Log(Yt) Transformation
+## 📈Log(Yt) Transformation
 
 
 After using log transformation in the original dataset, you can see in the first plot that the mean is not stationary. Also the ACF plot is slowly decaying to zero 
@@ -95,7 +95,7 @@ S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log trans
 <img width="1242" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/ae951137-8558-43ba-9998-32b8bce14431">
 
 
-# 🎯 Selected Models with Log Transformation
+## 🎯 Selected Models with Log Transformation
 
 Using the ACF and PACF to find the best possible combination, and also employing Grid Search to find the best model with the lowest AIC score, the following models were selected:
 
@@ -103,7 +103,7 @@ Using the ACF and PACF to find the best possible combination, and also employing
 - SARIMA(1,1,0)(0,1,1) with log transformation
 - SARIMA(1,0,1)(1,0,1) with log transformation
 
- # 📊 Model Comparison
+ ## 📊 Model Comparison
 
 We use 83 time series points for training and 24 values for the testing set. The performance of the models is compared using MAPE / MSFE for 4 horizons.
 
@@ -131,7 +131,7 @@ SARIMA(p,d,q)(P,D,Q) | Transformation | MSFE(n=1) | MSFE(n=2) | MSFE(n=3) | MSFE
 (1,1,0)*(0,1,1) | d=1, D=1, log | 0.0018 | 0.0033 | 0.0038 | 0.0039 | 5.6913 | 7.1160 | 7.5413 | 7.1232
 (1,0,1)*(1,0,1) | log | 0.0017 | 0.0031 | 0.0035 | 0.0035 | 5.2534 | 6.8415 | 7.2229 | 6.838
 
-3
+
 
 ## 🏆 Winner Model
 

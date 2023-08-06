@@ -6,6 +6,7 @@
 ## <span style="color:darkred">Quarterly Earnings per Share from 1983 to 2009</span>
 
 Quarterly earnings per share of Coca Cola Company from the first quarter of 1983 to the third quarter of 2009.
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 
 ## <span style="color:darkred">📈 Box - Jenkins Methodology</span>
 

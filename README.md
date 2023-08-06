@@ -9,7 +9,8 @@ Quarterly earnings per share of Coca Cola Company from the first quarter of 1983
 
 **Coca Cola Earnings from 1983 - 2009**
 
-<img width="291" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/721a6382-7ca3-43a7-98bc-3c6126374968">
+![image](https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/0daf6e69-182b-4ce5-b48c-341cd081e1a3)
+
 
 
 

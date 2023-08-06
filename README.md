@@ -1,4 +1,4 @@
-![Coca Cola Banner](CocaColaBanner.png)
+![Coca Cola Banner](dashboard.png)
 
 
 # Coca Cola Company - Quarterly Earnings per Share Analysis

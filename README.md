@@ -35,7 +35,8 @@ The time series plot shows that the level is not constant over time.
 
 ## 🔄 Using Regular Difference
 
-<img width="273" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/12e6af2b-4c60-4af2-8d40-f7c1468a9a03">
+<img width="664" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/295552e6-d773-4dff-8ca2-438e30acf548">
+
 
 
 ACF plot:

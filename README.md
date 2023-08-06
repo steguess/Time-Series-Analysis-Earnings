@@ -19,10 +19,9 @@ Since 1983, the quarterly earnings per share grew strongly over time. It started
 
 ## 📊 Analysis on the Original Data
 
-<img width="257" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/1b730bb5-1d06-441a-a244-deceb8d37816">
+<img width="568" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/b1975c3b-965e-4e56-a076-858a09f1805b">
 
 
-<img width="165" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/4f37d278-3dbf-4fa7-8390-4316a048bf5f">
 
 
 

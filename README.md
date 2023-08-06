@@ -17,7 +17,11 @@ Since 1983, the quarterly earnings per share grew strongly over time. It started
 
 ## 📊 Analysis on the Original Data
 
-![Analysis Icon](https://example.com/analysis-icon.png)
+<img width="257" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/1b730bb5-1d06-441a-a244-deceb8d37816">
+
+<img width="165" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/4f37d278-3dbf-4fa7-8390-4316a048bf5f">
+
+
 
 The time series plot shows that the level is not constant over time.
 - The series (Yt) is not stationary in the mean.

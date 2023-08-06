@@ -35,20 +35,17 @@ The time series plot shows that the level is not constant over time.
 
 ## 🔄 Using Regular Difference
 
-<img width="248" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/9a83717d-ce90-4b31-9df4-1e6415312126">
+<img width="273" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/12e6af2b-4c60-4af2-8d40-f7c1468a9a03">
 
 
+ACF plot:
 - S=4 Quarterly Data
 - Seasonal Difference: 0
 - Regular Difference: 1
-
-ACF plot:
 - Seasonal lags, slow decay to zero
-  
-Conclusion:
 - Seasonal Difference
 
-
+Doing the following Transformation: 
 S=4 Quarterly Data | Seasonal Difference: 1 | Regular Difference: 1
 
 

@@ -75,16 +75,25 @@ WH = White Noise,
 GWN = Gaussian White Noise,
 SWN = Strict White Noise
 
-Apologies for that oversight. Here's the revised version with icons in the headers:
-
 
 📈 # Log(Yt) Transformation
 
-After using log transformation in the original dataset, the following observations were made:
-- The mean is not stationary in the first plot.
-- ACF plot is slowly decaying to zero, indicating the need to take the difference.
-- PACF plot lag 1 is out of bound, further confirming the need for a difference.
-- ndiff test for regular and seasonal indicates we need to apply the difference with d=1 and D=1.
+
+After using log transformation in the original dataset, you can see in the first plot that the mean is not stationary. Also the ACF plot is slowly decaying to zero 
+→ Taking the difference 
+● PACF plot lag 1 is out of bound → difference → also ndiff test for regular and seasonal indicates we need to apply the difference d= 1 and D=1 ● After taking only d=1, the seasonal lags decay to zero over time in the ACF plot → Seasonal Difference and also the seasonal difference test is also indicating to take the difference
+
+<img width="969" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/6cd39756-4345-4968-8ef2-0eccf7fe6756">
+
+S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log transformation
+● After taking the differences(d = 1,D =1 ) you can see the plots below show there are no trends 
+● ADF Test p-value is below 0.05 → the mean is stationary 
+● Box Test is below 0.05 → not White Noise and data is uncorrelated 
+● ACF plot, lag 1,3,4,5,9,18 are out of bound → need to take regular and seasonal lags 
+● PACF plot are 1,2,4,8 are out of bound → regular and seasonal lags → liner models needed
+
+<img width="1242" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Coca-Cola-Earnings/assets/86976901/ae951137-8558-43ba-9998-32b8bce14431">
+
 
 # 🎯 Selected Models with Log Transformation
 

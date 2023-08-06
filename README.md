@@ -47,6 +47,7 @@ ACF plot:
 - Seasonal Difference
 
 Doing the following Transformation: 
+
 S=4 Quarterly Data | Seasonal Difference: 1 | Regular Difference: 1
 
 

@@ -62,11 +62,15 @@ We looked for possible models with significant parameters and also checked if th
 
 #### SARIMA(p,d,q)*(P,D,Q) Models Summary
 
-| Parameters      | Significant | Box Test df=28 | White Noise   | Gaussian White Noise                  | Strict White Noise   | Non-Linear Model |
+| Parameters      | Significant | Box Test df=28 | WN  | GWN                  | SWN  | Non-Linear Model |
 | --------------- | ----------- | -------------- | ---- | -------------------- | ----- | ---------------- |
 | (0,1,0)*(1,1,0) | Yes         | 0.59           | Yes  | No, Shapiro test is <0.05 | No SWN | Yes              |
 | (0,1,1)*(0,1,1) | Yes         | 0.66           | Yes  | No, Shapiro test is <0.05 | No SWN | Yes              |
 | (1,1,0)*(1,1,0) | Yes         | 0.644          | Yes  | No, Shapiro test is <0.05 | No SWN | Yes              |
 | (1,1,1)*(1,1,0) | Yes         | 0.804          | Yes  | No, Shapiro test is <0.05 | No SWN | Yes              |
 
-Note: Replace the image URLs (e.g., `https://example.com/CocaCola_Banner.png`) with actual image URLs to display the "CocaCola Banner.png" image at the top. You can also modify the icons and formatting as per your preference.
+
+*Legend
+WH = White Noise
+GWN = Gaussian White Noise
+SWN = Strict White Noise

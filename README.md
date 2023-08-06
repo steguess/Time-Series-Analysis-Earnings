@@ -114,7 +114,7 @@ S=4 Quarterly Data | Seasonal Difference : 1 | Regular Difference: 1 | log trans
 Using the ACF and PACF to find the best possible combination, and also employing Grid Search to find the best model with the lowest AIC score, the following models were selected:
 
 
- ## 📊 Model Comparison
+ ##  Model Comparison <img width="30" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/99e338c7-89ca-45cd-96a9-4765e55bb27d">
 
 We use 83 time series points for training and 24 values for the testing set. The performance of the models is compared using MAPE / MSFE for 4 horizons.
 
@@ -142,6 +142,7 @@ SARIMA(p,d,q)(P,D,Q) | Transformation | MSFE(n=1) | MSFE(n=2) | MSFE(n=3) | MSFE
 (1,1,0)*(0,1,1) | d=1, D=1, log | 0.0018 | 0.0033 | 0.0038 | 0.0039 | 5.6913 | 7.1160 | 7.5413 | 7.1232
 (1,0,1)*(1,0,1) | log | 0.0017 | 0.0031 | 0.0035 | 0.0035 | 5.2534 | 6.8415 | 7.2229 | 6.838
 
+Even though the recursive shows minimal better results on MAPE for ARIMA(0,1,1)*(0,1,1) for n=1 and n=2 values. The rolling scheme  is better in predicting values further away n= 3 and n=4. Additionally, it avoids potential problems with the model stability, and is more robust against structural breaks in the data than the recursive scheme. As you can see in the coca cola first graph there is a break in the data from 1990 to 2000. To prevent this from happening the rolling scheme forecast is more robust against sudden changes in the earnings per share. 
 
 
 ## 🏆 Winner Model

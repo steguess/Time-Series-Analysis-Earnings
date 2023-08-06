@@ -167,7 +167,8 @@ Squared residuals Box Test p-value is below 0.05, squared residuals lags are out
 Since the tails of the distribution are not close to the normal distribution, we cannot use the assumption of normality for the tails, we need to use the quantiles of the distribution for the CI prediction.
 
 
-<img width="259" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/46d86cf4-3fab-458b-b259-4ccdf32fc4b9">
+<img width="578" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/b3db4407-ba97-43d0-a3f5-7c0da1835a57">
+
 
 
 ## 📈 Prediction

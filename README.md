@@ -149,15 +149,23 @@ Even though the recursive shows minimal better results on MAPE for ARIMA(0,1,1)*
 
 The winning model is Log(Yt), SARIMA(0,1,1)(0,1,1,4).
 
+<img width="790" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/221748a9-6b40-4757-8650-bf242c975159">
+
+
 - The two estimated parameters MA(1) and SMA(1) parameters are statistically significant (p-value < 0).
 - ADF Test p-value is below 0.05 → the mean is stationary.
 - The ACF plot shows that the lags are in bounds (some are close to the threshold value like lag 5 and 18) → Test Box Test.
 - Box Test p-value = 0.649 → data is uncorrelated, and ACF close to zero → LB states White Noise residuals → no linear model needed.
 - Shapiro Test p-value is below zero → no normal distribution → Non-Gaussian White Noise.
 
+  <img width="1274" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/816c6786-314c-44d1-912e-a3cb02ef14f1">
+
+
 Squared residuals Box Test p-value is below 0.05, squared residuals lags are out of bound → data is correlated → No Strict White Noise → Nonlinear model for the variance can be used.
 
 Since the tails of the distribution are not close to the normal distribution, we cannot use the assumption of normality for the tails, we need to use the quantiles of the distribution for the CI prediction.
+<img width="269" alt="image" src="https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/840eabcb-63e1-488c-a406-ebe46d2b17a0">
+
 
 ## 📈 Prediction
 
@@ -168,6 +176,8 @@ For the Confidence Interval, we use the first transformation scale and, in the e
 95% confidence interval Assuming Quantile distribution on the tails:
 - Lower CI: exp(Point prediction - 1.806302 * SE)
 - Upper CI: exp(Point prediction + 1.834527 * SE)
+
+![image](https://github.com/steguess/Time-Series-Analysis-Earnings/assets/86976901/395d58b6-eca9-4145-9380-1ceb42359548)
 
 
 ## Authors 📚

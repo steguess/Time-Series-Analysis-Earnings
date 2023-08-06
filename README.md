@@ -149,8 +149,15 @@ For the Confidence Interval, we use the first transformation scale and, in the e
 - Upper CI: exp(Point prediction + 1.834527 * SE)
 
 
-## Contributors
-</table>
+## Authors 📚
+
+ :tada:
+
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
   <tr>
     <td align="center"><a href="https://github.com/bmanzuoli"><img src="https://avatars.githubusercontent.com/u/108944195?v=4" width="100px;" alt="Barbara Manzueli"/><br /><sub><b>Barbara Manzueli</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=itayyoung" title="Data Analyst">✍️</a></td>
     <td align="center"><a href="https://github.com/juanhorrillo"><img src="https://avatars.githubusercontent.com/u/108974910?v=4" width="100px;" alt="Juan Horrillo"/><br /><sub><b>Juan Horrillo</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=callisthenes" title="Backend Developer">💻</a></td>
